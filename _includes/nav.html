@@ -14,8 +14,8 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                {% pages_list = site.pages %}
-                {% group = 'navigation' %}
+                {% assign pages_list = site.pages %}
+                {% assign group = 'navigation' %}
                 {% include pages_list %}
             </ul>
         </div>
