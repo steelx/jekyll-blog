@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A wordpress killer on streets"
-meta: "Jekyll is so easy to use you can create a Blog lighting fast."
+description: "Jekyll is so easy to use you can create a Blog lighting fast."
 author: "Ajinkya"
 image: "post-bg.jpg"
 ---

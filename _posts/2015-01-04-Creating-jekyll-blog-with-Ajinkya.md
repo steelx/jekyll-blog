@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Creating Jekyll Blog with Ajinkya"
-meta: "Creating CMS blog with Ruby's gem Jekyll and its gona take the world."
+description: "Creating CMS blog with Ruby's gem Jekyll and its gona take the world."
 author: "Ajinkya"
 image: "post-bg.jpg"
 ---
