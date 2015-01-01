@@ -3,6 +3,7 @@ layout: post
 title: "Hello world welcome to jekyll blog"
 description: "An awesome introduction to jekyll and its features."
 author: "Ajinkya Borade"
+coverImg: "post-bg.jpg"
 ---
 
 
