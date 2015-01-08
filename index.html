@@ -10,26 +10,34 @@ coverImg: "home-bg.jpg"
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                {% for post in site.posts %}
+                {% for news in paginator.posts %}
                     <div class="post-preview">
-                        <a href="{{ post.url }}">
+                        <a href="{{ news.url }}">
                             <h2 class="post-title">
-                                {{ post.title }}
+                                {{ news.title }}
                             </h2>
                             <h3 class="post-subtitle">
-                                {{ post.description }}
+                                {{ news.description }}
                             </h3>
                         </a>
-                        <p class="post-meta">Posted by <a href="#">{{ post.author }}</a> on {{ post.date | date_to_string }}</p>
+                        <p class="post-meta">Posted by <a href="#">{{ news.author }}</a> on {{ news.date | date_to_string }}</p>
                     </div>
                     <hr>
                 {% endfor %}
                 
                 <!-- Pager -->
                 <ul class="pager">
-                    <li class="next">
-                        <a href="#">Older Posts &rarr;</a>
+                    {% if paginator.previous_page %}
+                    <li class="previous">
+                        <a href="{{ paginator.previous_page_path }}">&larr; Prev Posts</a>
                     </li>
+                    {% endif %}
+
+                    {% if paginator.next_page %}
+                    <li class="next">
+                        <a href="{{ paginator.next_page_path }}">Older Posts &rarr;</a>
+                    </li>
+                    {% endif %}
                 </ul>
             </div>
         </div>
