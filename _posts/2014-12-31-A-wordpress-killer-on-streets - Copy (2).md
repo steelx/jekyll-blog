@@ -4,6 +4,7 @@ title: "A wordpress killer on streets"
 description: "Jekyll is so easy to use you can create a Blog lighting fast."
 author: "Ajinkya"
 coverImg: "post-bg.jpg"
+comments: true
 ---
 
 #A wordpress killer on streets
