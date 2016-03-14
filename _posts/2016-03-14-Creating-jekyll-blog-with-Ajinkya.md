@@ -9,7 +9,7 @@ coverImg: "post-bg.jpg"
 
 #Creating Jekyll Blog with Ajinkya
 
-View the ful course here https://www.udemy.com/create-free-jekyll-blog-on-github-pages-like-a-ninja/
+[View the full course here!](https://www.udemy.com/create-free-jekyll-blog-on-github-pages-like-a-ninja/)
 
 
 We will convert a static HTML5 website into a dynamic blog using Jekyll, which is a Ruby gem. You dont have to know ruby programming, only basic HTML/CSS knowledge is needed. You will also learn how to connect domain name to your website and how to host website on Github for free. Jekyll is faster than WordPress and easier to learn.
@@ -22,4 +22,7 @@ We will convert a static HTML5 website into a dynamic blog using Jekyll, which i
 
     Connect custom domain names to your website
     Search Engine Optimization for our Blog
+    
+    
+    View the full course here! [CLICK here!](https://www.udemy.com/create-free-jekyll-blog-on-github-pages-like-a-ninja/)
 
