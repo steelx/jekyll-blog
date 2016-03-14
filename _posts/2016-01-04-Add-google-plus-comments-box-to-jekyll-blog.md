@@ -32,11 +32,11 @@ If you are using Jekyll;
 {% endhighlight %}
 
 
-2) Now just make sure you have this property defined in your `_config.yml` file (replace the url with your website URL)
+2) Now just make sure you have this property defined in your `_config.yml` file (replace the url with your website URL) with a trailing forward slash. View my [soruce code here!](https://github.com/steelx/jekyll-blog/blob/gh-pages/_config.yml)
 
 {% highlight liquid %}
 {% raw %}
-  baseurl: http://steelx.github.io/best-internet-tips/
+  baseurl: http://jekyll-blog.com/
 {% endraw %}
 {% endhighlight %}
 
