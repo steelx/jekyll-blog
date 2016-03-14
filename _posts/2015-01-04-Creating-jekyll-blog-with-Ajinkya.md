@@ -9,18 +9,17 @@ coverImg: "post-bg.jpg"
 
 #Creating Jekyll Blog with Ajinkya
 
-Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor.
+View the ful course here https://www.udemy.com/create-free-jekyll-blog-on-github-pages-like-a-ninja/
 
-  - Type some Markdown on the left
-  - See HTML in the right
-  - Magic
 
-Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email.  As [John Gruber] writes on the [Markdown site] [1]:
+We will convert a static HTML5 website into a dynamic blog using Jekyll, which is a Ruby gem. You dont have to know ruby programming, only basic HTML/CSS knowledge is needed. You will also learn how to connect domain name to your website and how to host website on Github for free. Jekyll is faster than WordPress and easier to learn.
 
-> The overriding design goal for Markdown's
-> formatting syntax is to make it as readable
-> as possible. The idea is that a
-> Markdown-formatted document should be
-> publishable as-is, as plain text, without
-> looking like it's been marked up with tags
-> or formatting instructions.
+    Learn How to Host Free Unlimited Static Websites
+    Learn how to create your Content Management System
+    Use Github as your free hosting server
+    We will also create email capture pages, contact page.
+    Sick of dealing with hosting companies? We will learn how to use Github as our free hosting to run our Jekyll powered blog.
+
+    Connect custom domain names to your website
+    Search Engine Optimization for our Blog
+
