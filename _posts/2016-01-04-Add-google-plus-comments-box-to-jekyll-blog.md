@@ -32,7 +32,7 @@ If you are using Jekyll;
 {% endhighlight %}
 
 
-2) Now just make sure you have this property defined in your `_config.yml` file (replace the url with your website URL) with a trailing forward slash. View my [soruce code here!](https://github.com/steelx/jekyll-blog/blob/gh-pages/_config.yml)
+2) Now just make sure you have this property defined in your `_config.yml` file (replace the url with your website URL) View my [soruce code here!](https://github.com/steelx/jekyll-blog/blob/gh-pages/_config.yml) 
 
 {% highlight liquid %}
 {% raw %}
@@ -50,3 +50,5 @@ If you are using Jekyll;
 {% endhighlight %}
 
 I hope this post was useful, please dont forget to Google PLUSONE this post or comment below.
+Please view the source code on your live website pressing `CMD/CTRL+ U` to check the generated URL on your webpage after commiting the files. If this doesnt work post your comments below and I will be glad to help you.
+
