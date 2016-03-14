@@ -24,5 +24,5 @@ We will convert a static HTML5 website into a dynamic blog using Jekyll, which i
     Search Engine Optimization for our Blog
     
     
-    View the full course here! [CLICK here!](https://www.udemy.com/create-free-jekyll-blog-on-github-pages-like-a-ninja/)
+View the full course here! [CLICK here!](https://www.udemy.com/create-free-jekyll-blog-on-github-pages-like-a-ninja/)
 
