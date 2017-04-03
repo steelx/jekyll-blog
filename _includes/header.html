@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="canonical" href="{{page.url | prepend: site.url}}" />
+    <link rel="canonical" href="{{page.url | prepend: site.baseurl}}" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,16 +11,16 @@
     <meta name="author" content="{{page.author}}">
     {% endif %}
     {% if page.coverImg %}
-    <meta property="og:image" content="{{page.coverImg | prepend: site.url}}" />
+    <meta property="og:image" content="{{page.coverImg | prepend: site.baseurl}}" />
     {% endif %}
 
     <title>{{page.title}}</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="{{ site.url }}/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="{{ site.url }}/css/clean-blog.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/css/clean-blog.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -43,7 +43,7 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('{{ site.url }}/img/{{page.coverImg}}')">
+    <header class="intro-header" style="background-image: url('{{ site.baseurl }}/img/{{page.coverImg}}')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
